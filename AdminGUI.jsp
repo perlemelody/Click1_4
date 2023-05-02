@@ -1,9 +1,3 @@
-<%-- 
-    Document   : AdminGUI
-    Created on : 10.04.2023, 15:04:03
-    Author     : Max Schwarzer
---%>
-
 <!DOCTYPE html>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@ page import="java.sql.*" %>
@@ -13,7 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Taubenschlag AG - Client-Server - Login</title>
+        <title>Taubenschlag AG - Client-Server - Admin GUI</title>
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />        
@@ -26,9 +20,8 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link" href="#client-server">Client-Server</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#about">Über Uns</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#services">Client Server</a></li>
                     </ul>
                 </div>
             </div>
@@ -186,19 +179,19 @@
                                 
                                 <script>
                                     function MitarbeiterHinzufügen(){
-                                        window.open("MitarbeiterHinzufügen.jsp","MitarbeiterHinzufügen", "popup=1,width=500,height=300");
+                                        window.open("MitarbeiterHinzufügen.jsp","MitarbeiterHinzufügen", "popup=1,width=500,height=500");
                                     }
                             
                                     function MitarbeiterBearbeiten(){
-                                        window.open("MitarbeiterIDEingeben.jsp","MitarbeiterIDEingeben", "popup=1,width=500,height=300");
+                                        window.open("MitarbeiterIDEingeben.jsp","MitarbeiterIDEingeben", "popup=1,width=500,height=500");
                                     }
                                     
                                     function VerantwortlicherHinzufügen(){
-                                        window.open("VerantwortlicherHinzufügen.jsp","VerantwortlicherHinzufügen", "popup=1,width=500,height=300");
+                                        window.open("VerantwortlicherHinzufügen.jsp","VerantwortlicherHinzufügen", "popup=1,width=500,height=500");
                                     }
                                     
                                     function VerantwortlicherBearbeiten(){
-                                        window.open("VerantwortlicherIDEingeben.jsp","VerantwortlicherIDEingeben", "popup=1,width=500,height=300");
+                                        window.open("VerantwortlicherIDEingeben.jsp","VerantwortlicherIDEingeben", "popup=1,width=500,height=500");
                                     }
                             
                                     

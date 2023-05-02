@@ -1,7 +1,7 @@
 <%-- 
     Document   : MitarbeiterGUI
     Created on : 10.04.2023, 15:02:40
-    Author     : Max Schwarzer
+    Author     : Max Schwarzer, Frederick Mainzer
 --%>
 
 <!DOCTYPE html>
@@ -12,7 +12,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Taubenschlag AG - Client-Server - Login</title>
+        <title>Taubenschlag AG - Client-Server - Mitarbeiter GUI</title>
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
@@ -25,9 +25,8 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link" href="#client-server">Client-Server</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#about">Über Uns</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#services">Client Server</a></li>
                     </ul>
                 </div>
             </div>
@@ -108,21 +107,21 @@
             <br>
             
             <input type="button" value="Druckwerk ausleihen" name="BDruckwerkAusleihen" onclick="DruckwerkAusleihen()"/>        
-            <input type="button" value="Druckwerk anfordern" name="BDruckwerkAnfordern" onclick="DruckwerkAnfordern()"/>   
+            <!-- <input type="button" value="Druckwerk anfordern" name="BDruckwerkAnfordern" onclick="DruckwerkAnfordern()"/>   -->
             <input type="button" value="Druckwerk zurückgeben" name="BDruckwerkZurückgeben" onclick="DruckwerkZurückgeben()"/>
             <br> <br>
             <input type="button" value="zurück" name="Bzurueck" onclick="window.location.replace('login.jsp');"/>     
     </center>  
       <script>
             function DruckwerkAusleihen(){
-                window.open("DruckwerkIDEingebenAusleihen.jsp","DruckwerkIDEingebenAusleihen", "popup=1,width=500,height=300");
+                window.open("DruckwerkIDEingebenAusleihen.jsp","DruckwerkIDEingebenAusleihen", "popup=1,width=500,height=400");
             }    
             function DruckwerkAnfordern(){
-                window.open("DruckwerkIDEingebenAnfordern.jsp","DruckwerkIDEingebenAnfordern", "popup=1,width=500,height=300");
+                window.open("DruckwerkIDEingebenAnfordern.jsp","DruckwerkIDEingebenAnfordern", "popup=1,width=500,height=400");
             }
             
             function DruckwerkZurückgeben(){
-                window.open("DruckwerkIDEingebenZurückgeben.jsp","DruckwerkIDEngebenZurückgeben", "popup=1,width=500,height=300");
+                window.open("DruckwerkIDEingebenZurückgeben.jsp","DruckwerkIDEngebenZurückgeben", "popup=1,width=500,height=400");
             }
             
             function suchen(){

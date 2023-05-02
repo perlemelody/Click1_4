@@ -1,7 +1,7 @@
 <%-- 
-    Document   : VerantwortlicherBearbeiten
-    Created on : 30.04.2023, 09:57:41
-    Author     : Max Schwarzer
+    Document   : VerantwortlicherHinzufügen
+    Created on : 30.04.2023, 09:53:36
+    Author     : Max Schwarzer , Frederick Mainzer
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -9,20 +9,36 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Verantwortlicher Bearbeiten </title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Taubenschlag AG - Client-Server - Verantwortlicher Berabeiten</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <title>Abteilungsname Eingeben</title>
     </head>
     <body>
         <center>
         <h1>Verantwortlicher Bearbeiten</h1> <br>
-        VerantwortlicherID
-        <input type="text" name="TIVerantwortlicherID" value="VerantwortlicherID" /> <br>
-        Vorname
-        <input type="text" name="TIVerantwortlicherVorname" value="Verantwortlicher Vorname" /> <br>
-        Nachname
-        <input type="text" name="TIVerantwortlicherNachname" value="Verantwortlicher Nachname" /> <br>
-        Email
-        <input type="text" name="TIVerantwortlicherEmail" value="Verantwortlicher Email" /> <br>
-        Passwort
+        VerantwortlicherID:
+        <input type="text" name="TIVerantwortlicherID" value="VerantwortlicherID" /> 
+        <br>
+        <br>
+        Vorname:
+        <input type="text" name="TIVerantwortlicherVorname" value="Verantwortlicher Vorname" /> 
+        <br>
+        <br>
+        Nachname:
+        <input type="text" name="TIVerantwortlicherNachname" value="Verantwortlicher Nachname" /> 
+        <br>
+        <br>
+        Email:
+        <input type="text" name="TIVerantwortlicherEmail" value="Verantwortlicher Email" />
+        <br>
+        <br>
+        Passwort:
         <input type="text" name="TIVerantwortlicherPasswort" value="Verantwortlicher Passwort" /> <br> <br>
         
         <input type="button" value="Löschen" name="BLöschen" onclick="löschen()"/> 
@@ -44,7 +60,11 @@
             window.close();
         } 
     </script>
-    
-    </body>
+        
+      <!-- Bootstrap core JS-->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+      <!-- Core theme JS-->
+      <script src="js/scripts.js"></script>  
+            </body>
 </html>
 

@@ -1,7 +1,7 @@
 <%-- 
-    Document   : MitarbeiterHinzufügen
-    Created on : 30.04.2023, 08:02:14
-    Author     : Max Schwarzer
+    Document   : VerantwortlicherHinzufügen
+    Created on : 30.04.2023, 09:53:36
+    Author     : Max Schwarzer , Frederick Mainzer
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -9,18 +9,32 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Mitarbeiter Hinzufügen Page</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Taubenschlag AG - Client-Server - Mitarbeiter Hinzufügen</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <title>Abteilungsname Eingeben</title>
     </head>
     <body>
         <center>
         <h1>Mitarbeiter hinzufügen</h1> <br>
-        Vorname
-        <input type="text" name="TIMitarbeiterVorname" value="" /> <br>
-        Nachname
-        <input type="text" name="TIMitarbeiterNachname" value="" /> <br>
-        Email
-        <input type="text" name="TIMitarbeiterEmail" value="" /> <br>
-        Passwort
+        Vorname:
+        <input type="text" name="TIMitarbeiterVorname" value="" /> 
+        <br>
+        <br>
+        Nachname:
+        <input type="text" name="TIMitarbeiterNachname" value="" /> 
+        <br>
+        <br>
+        Email:
+        <input type="text" name="TIMitarbeiterEmail" value="" /> 
+        <br>
+        <br>
+        Passwort:
         <input type="text" name="TIMitarbeiterPasswort" value="" /> <br> <br>
         <input type="button" value="Hinzufügen" name="Bhinzufügen" onclick="nextgui()"/> 
         
@@ -33,8 +47,12 @@
             window.open('', '_self', ''); 
             window.close();
         } 
-    </script> 
+    </script>
         
-        
-    </body>
+      <!-- Bootstrap core JS-->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+      <!-- Core theme JS-->
+      <script src="js/scripts.js"></script>  
+            </body>
 </html>
+

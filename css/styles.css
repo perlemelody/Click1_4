@@ -383,7 +383,7 @@ button,
 [type=button],
 [type=reset],
 [type=submit] {
-  -webkit-appearance: button;
+-webkit-appearance: button;
 }
 button:not(:disabled),
 [type=button]:not(:disabled),
@@ -10837,3 +10837,37 @@ section {
   padding-top: 9rem;
   padding-bottom: 9rem;
 }
+
+
+
+
+
+
+
+
+
+
+knopf{
+  padding: 25px 30px;
+  background-color: gray;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  letter-spacing: 4px;
+  overflow: hidden;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+knopf:hover{
+    background: #6c7c98;
+    color: white;
+    box-shadow: 0 0 5px #6c7c98,
+                0 0 25px #6c7c98,
+                0 0 50px #6c7c98,
+                0 0 200px #6c7c98;
+     -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+}
+
+

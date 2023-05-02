@@ -15,13 +15,12 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
             <div class="container px-4">
-                <a class="navbar-brand" href="login.jsp">Taubenschlag AG</a>
+                <a class="navbar-brand" href="index.html">Taubenschlag AG</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link" href="#client-server">Client-Server</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#about">Über Uns</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#services">Client Server</a></li>
                     </ul>
                 </div>
             </div>
@@ -33,7 +32,7 @@
                 <p class="lead">Ein Projekt von: </br>
                  Lisa Fritze, Max Schwarzer, Merle Deike,
                 </br>
-                 Fabian Röske, Marc Franke, Frederick Mainzer
+                 Fabian Roeske, Marc Franke, Frederick Mainzer
                 </p>
                 <a class="btn btn-lg btn-light" href="#Client-Server">Viel Spaß!</a>
             </div>
@@ -52,9 +51,13 @@
                             <p>
                                 <center>
                                     ID:
-                                    <input type="text" name="TILoginID" value="" /> <br>
+                                    <input type="text" name="TILoginID" value="" /> 
+                                    <br>
+                                    <br>
                                     Passwort:
-                                    <input type="password" name="TIPasswort" value="" /> <br>
+                                    <input type="password" name="TIPasswort" value="" /> 
+                                    <br>
+                                    <br>
                                     <input type="radio" id="Mitarbeiter" name="RBGLogin" />
                                     <label for="Mitarbeiter">Mitarbeiter</label>            
                                     <input type="radio" id="Verantwortlicher" name="RBGLogin" />
